@@ -36,7 +36,7 @@ protocol TextInputFilterAssociatedObjects: AnyObject {
     associatedtype TextInputFilterDelegateType: AnyObject
     
     var textInputFilter_filterDelegate: TextInputFilterDelegateType? { get set }
-    var textInputFilter_originalDelegateObservation: NSKeyValueObservation? { get set }
+    var textInputFilter_originalDelegateObservation: Any? { get set }
 }
 
 extension TextInputFilterAssociatedObjects where Self: NSObject {
@@ -50,9 +50,9 @@ extension TextInputFilterAssociatedObjects where Self: NSObject {
         }
     }
     
-    var textInputFilter_originalDelegateObservation: NSKeyValueObservation? {
+    var textInputFilter_originalDelegateObservation: Any? {
         get {
-            return objc_getAssociatedObject(self, &TextInputFilterDelegateAssociatedKeys.originalDelegateObservation) as? NSKeyValueObservation
+            return objc_getAssociatedObject(self, &TextInputFilterDelegateAssociatedKeys.originalDelegateObservation)
         }
         set {
             objc_setAssociatedObject(self, &TextInputFilterDelegateAssociatedKeys.originalDelegateObservation, newValue, .OBJC_ASSOCIATION_RETAIN)

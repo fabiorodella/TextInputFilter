@@ -59,12 +59,17 @@ public extension UITextField {
         delegate = inputFilterDelegate
         
         if textInputFilter_originalDelegateObservation == nil {
-            textInputFilter_originalDelegateObservation = observe(\.delegate) { textField, _ in
+            let observation = observe(\.delegate) { textField, _ in
                 guard textField.delegate !== textField.textInputFilter_filterDelegate else {
                     return
                 }
                 textField.textInputFilter_filterDelegate?.actualDelegate = textField.delegate
                 textField.delegate = textField.textInputFilter_filterDelegate
+            }
+            if #available(iOS 11.0, *) {
+                textInputFilter_originalDelegateObservation = observation
+            } else {
+                textInputFilter_originalDelegateObservation = LegacyKeyValueObservationCleanerWrapper(observation: observation, observer: self)
             }
         }
     }

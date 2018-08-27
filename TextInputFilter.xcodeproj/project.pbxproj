@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1536B4E02134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */; };
 		154B0A5321174E2D00578336 /* TextInputFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154B0A4921174E2D00578336 /* TextInputFilter.framework */; };
 		154B0A7B21187E0600578336 /* UITextField+TextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */; };
 		154B0A7C21187E0600578336 /* TextInputFilterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A7821187E0600578336 /* TextInputFilterDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LegacyKeyValueObservationCleanerWrapper.swift; path = Sources/LegacyKeyValueObservationCleanerWrapper.swift; sourceTree = "<group>"; };
 		154B0A4921174E2D00578336 /* TextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		154B0A5221174E2D00578336 /* TextInputFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextInputFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+TextInputFilter.swift"; path = "Sources/UITextField+TextInputFilter.swift"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				154B0A7921187E0600578336 /* TextInputFilter.swift */,
 				154B0A7821187E0600578336 /* TextInputFilterDelegate.swift */,
+				1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */,
 				154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */,
 				154B0A7A21187E0600578336 /* UITextView+TextInputFilter.swift */,
 				154B0A7F21187E1B00578336 /* TextInputFilter.plist */,
@@ -206,6 +209,7 @@
 				154B0A7C21187E0600578336 /* TextInputFilterDelegate.swift in Sources */,
 				154B0A7D21187E0600578336 /* TextInputFilter.swift in Sources */,
 				154B0A7E21187E0600578336 /* UITextView+TextInputFilter.swift in Sources */,
+				1536B4E02134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift in Sources */,
 				154B0A7B21187E0600578336 /* UITextField+TextInputFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
