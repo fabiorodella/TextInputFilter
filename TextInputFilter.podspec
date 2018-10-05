@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TextInputFilter"
-  s.version      = "0.1.1"
+  s.version      = "1.0.0"
   s.summary      = "Write your own reusable input filters for UITextField and UITextView"
   s.description  = <<-DESC
   TextInputFilter allows you to write contained and reusable input filters, that can filter and/or
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/fabiorodella/TextInputFilter.git", :tag => s.version }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation", "UIKit"
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
 end
