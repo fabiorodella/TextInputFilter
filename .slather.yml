@@ -1,3 +1,0 @@
-coverage_service: coveralls
-xcodeproj: TextInputFilter.xcodeproj
-scheme: TextInputFilter
