@@ -13,7 +13,7 @@
 		154B0A7C21187E0600578336 /* TextInputFilterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A7821187E0600578336 /* TextInputFilterDelegate.swift */; };
 		154B0A7D21187E0600578336 /* TextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A7921187E0600578336 /* TextInputFilter.swift */; };
 		154B0A7E21187E0600578336 /* UITextView+TextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A7A21187E0600578336 /* UITextView+TextInputFilter.swift */; };
-		154B0A8521187E9700578336 /* TextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B0A8121187E4700578336 /* TextInputFilterTests.swift */; };
+		1567D92225E52FC300FC112E /* TextInputFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D92125E52FC300FC112E /* TextInputFilterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,18 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LegacyKeyValueObservationCleanerWrapper.swift; path = Sources/LegacyKeyValueObservationCleanerWrapper.swift; sourceTree = "<group>"; };
+		1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyKeyValueObservationCleanerWrapper.swift; sourceTree = "<group>"; };
 		154B0A4921174E2D00578336 /* TextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		154B0A5221174E2D00578336 /* TextInputFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextInputFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+TextInputFilter.swift"; path = "Sources/UITextField+TextInputFilter.swift"; sourceTree = "<group>"; };
-		154B0A7821187E0600578336 /* TextInputFilterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInputFilterDelegate.swift; path = Sources/TextInputFilterDelegate.swift; sourceTree = "<group>"; };
-		154B0A7921187E0600578336 /* TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInputFilter.swift; path = Sources/TextInputFilter.swift; sourceTree = "<group>"; };
-		154B0A7A21187E0600578336 /* UITextView+TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextView+TextInputFilter.swift"; path = "Sources/UITextView+TextInputFilter.swift"; sourceTree = "<group>"; };
-		154B0A7F21187E1B00578336 /* TextInputFilter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TextInputFilter.plist; path = Configs/TextInputFilter.plist; sourceTree = "<group>"; };
-		154B0A8121187E4700578336 /* TextInputFilterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInputFilterTests.swift; path = Tests/TextInputFilterTests.swift; sourceTree = "<group>"; };
-		154B0A8321187E5100578336 /* TextInputFilterTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TextInputFilterTests.plist; path = Configs/TextInputFilterTests.plist; sourceTree = "<group>"; };
+		154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+TextInputFilter.swift"; sourceTree = "<group>"; };
+		154B0A7821187E0600578336 /* TextInputFilterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputFilterDelegate.swift; sourceTree = "<group>"; };
+		154B0A7921187E0600578336 /* TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputFilter.swift; sourceTree = "<group>"; };
+		154B0A7A21187E0600578336 /* UITextView+TextInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+TextInputFilter.swift"; sourceTree = "<group>"; };
+		154B0A7F21187E1B00578336 /* TextInputFilter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TextInputFilter.plist; sourceTree = "<group>"; };
+		154B0A8321187E5100578336 /* TextInputFilterTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TextInputFilterTests.plist; sourceTree = "<group>"; };
 		1567D90F25E52DD700FC112E /* TextInputFilter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TextInputFilter.podspec; sourceTree = "<group>"; };
 		1567D91025E52DD700FC112E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1567D91925E52F0000FC112E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		1567D91A25E52F0000FC112E /* Package@swift4.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Package@swift4.2.swift"; sourceTree = "<group>"; };
+		1567D92125E52FC300FC112E /* TextInputFilterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputFilterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,13 @@
 		154B0A3F21174E2D00578336 = {
 			isa = PBXGroup;
 			children = (
-				154B0A4B21174E2D00578336 /* TextInputFilter */,
-				154B0A5621174E2D00578336 /* TextInputFilterTests */,
+				1567D92525E5305400FC112E /* Configs */,
+				1567D92625E5308C00FC112E /* Sources */,
+				1567D92725E530BC00FC112E /* Tests */,
 				154B0A4A21174E2D00578336 /* Products */,
 				1567D90F25E52DD700FC112E /* TextInputFilter.podspec */,
+				1567D91925E52F0000FC112E /* Package.swift */,
+				1567D91A25E52F0000FC112E /* Package@swift4.2.swift */,
 				1567D91025E52DD700FC112E /* README.md */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +85,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		154B0A4B21174E2D00578336 /* TextInputFilter */ = {
+		1567D92525E5305400FC112E /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				154B0A7F21187E1B00578336 /* TextInputFilter.plist */,
+				154B0A8321187E5100578336 /* TextInputFilterTests.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		1567D92625E5308C00FC112E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				154B0A7921187E0600578336 /* TextInputFilter.swift */,
@@ -88,18 +102,16 @@
 				1536B4DF2134831A00C175D7 /* LegacyKeyValueObservationCleanerWrapper.swift */,
 				154B0A7721187E0600578336 /* UITextField+TextInputFilter.swift */,
 				154B0A7A21187E0600578336 /* UITextView+TextInputFilter.swift */,
-				154B0A7F21187E1B00578336 /* TextInputFilter.plist */,
 			);
-			name = TextInputFilter;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		154B0A5621174E2D00578336 /* TextInputFilterTests */ = {
+		1567D92725E530BC00FC112E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				154B0A8121187E4700578336 /* TextInputFilterTests.swift */,
-				154B0A8321187E5100578336 /* TextInputFilterTests.plist */,
+				1567D92125E52FC300FC112E /* TextInputFilterTests.swift */,
 			);
-			name = TextInputFilterTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +179,7 @@
 					};
 					154B0A5121174E2D00578336 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -224,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154B0A8521187E9700578336 /* TextInputFilterTests.swift in Sources */,
+				1567D92225E52FC300FC112E /* TextInputFilterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -430,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = info.rodels.TextInputFilterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -438,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
