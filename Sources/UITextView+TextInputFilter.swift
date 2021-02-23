@@ -44,7 +44,7 @@ public extension UITextView {
     /// - Parameters:
     ///   - inputFilter: the input filter to set, or nil to remove the current input filter
     ///   - onChange: closure caleed for every actual change. If `inputFilter` is nil, this has no effect
-    public func setInputFilter(_ inputFilter: TextInputFilter?, onChange: ((String) -> ())? = nil) {
+    func setInputFilter(_ inputFilter: TextInputFilter?, onChange: ((String) -> ())? = nil) {
         guard let inputFilter = inputFilter else {
             textInputFilter_originalDelegateObservation = nil
             delegate = textInputFilter_filterDelegate?.actualDelegate

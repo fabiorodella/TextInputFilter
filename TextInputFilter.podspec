@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   DESC
   s.homepage     = "https://github.com/fabiorodella/TextInputFilter"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Fabio Rodella" => "fabiorodella@gmail.com" }
+  s.author       = { "Fabio Rodella" => "fabiorodella@gmail.com" }
   s.ios.deployment_target = "9.0"
   s.source = { :git => "https://github.com/fabiorodella/TextInputFilter.git", :tag => s.version }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation", "UIKit"
-  s.swift_version = '4.2'
+  s.swift_versions = ['4.2', '5.0']
 end
