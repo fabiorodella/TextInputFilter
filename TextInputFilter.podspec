@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TextInputFilter"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Write your own reusable input filters for UITextField and UITextView"
   s.description  = <<-DESC
   TextInputFilter allows you to write contained and reusable input filters, that can filter and/or
