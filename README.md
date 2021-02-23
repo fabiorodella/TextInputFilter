@@ -1,6 +1,6 @@
 # TextInputFilter: write your own reusable input filters for `UITextField` and `UITextView`
 
-[![License](https://img.shields.io/cocoapods/l/TextInputFilter.svg?style=flat)](https://github.com/fabiorodella/TextInputFilter/blob/master/LICENSE) ![Platform](https://img.shields.io/cocoapods/p/TextInputFilter.svg?style=flat) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TextInputFilter.svg)](https://img.shields.io/cocoapods/v/TextInputFilter.svg) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/cocoapods/l/TextInputFilter.svg?style=flat)](https://github.com/fabiorodella/TextInputFilter/blob/master/LICENSE) ![Platform](https://img.shields.io/cocoapods/p/TextInputFilter.svg?style=flat) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TextInputFilter.svg)](https://img.shields.io/cocoapods/v/TextInputFilter.svg) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://app.bitrise.io/app/025cbb08ddf4f86e/status.svg?token=Du0NQC1C4pZewtM2iTRFxQ)](https://app.bitrise.io/app/025cbb08ddf4f86e)
 
 TextInputFilter allows you to write contained and reusable input filters, that can filter and/or transform input as it's typed. The same filters can be used for `UITextField` or `UITextView`.
 
@@ -47,7 +47,7 @@ textField.delegate = self // You can still use delegate methods other than textF
 
 ## Requirements
 
-TextInputFilter is compatible with Swift 4.x., and requires iOS 9.0+
+TextInputFilter is compatible with Swift 4.x and later, and requires iOS 9.0+
 
 ## Installation
 
@@ -75,4 +75,24 @@ end
 Inside your `Cartfile`:
 ```ogdl
 github "fabiorodella/TextInputFilter"
+```
+
+### Swift Package Manager
+Inside your `Package.swift`:
+```swift
+// swift-tools-version:4.0
+
+import PackageDescription
+
+let package = Package(
+    name: "TargetName",
+    dependencies: [
+        .package(url: "https://github.com/fabiorodella/TextInputFilter.git", from: "1.1.0"),
+    ],
+    targets: [
+        .target(
+            name: "TargetName",
+            dependencies: ["TextInputFilter"]),
+    ]
+)
 ```
